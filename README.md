@@ -43,5 +43,6 @@
 #📦 Installation
 
    Clone the repository:
+   git clone git@github.com:akirachix/spartans-informational.git
 
-   git clone git@github.com:rabeccahneema/spartans-informational-website.git
+  
