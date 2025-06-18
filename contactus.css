@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+}
+.contactus {
+    font-size: medium;
+
+}
+
+.foot {
+    background-color: #001904;
+    color: rgb(216, 215, 215);
+    margin: 0px;
+    height: 70vh;
+    padding-top: 45px;
+}
+
+.ally {
+    display: flex;
+    gap: 9cm;
+    padding-left: 50px;
+
+}
+
+.socialicons {
+    display: flex;
+    gap: 1cm;
+
+}
+
+.bottom {
+    display: flex;
+    gap: 8cm;
+    font-size: medium;
+    padding-top: 20px;
+    border-top: solid 1px white;
+    margin-bottom: 4%;
+    background-color: #001904;
+    padding-left: 5cm;
+}
+
+.services {
+    font-size: medium;
+}
+
+.links {
+    font-size: medium;
+}
+
+.form {
+    padding-bottom: 20px;
+
+    label {
+        color: white
+    }
+
+    input {
+        width: 80%;
+        padding: 12px 14px;
+        background-color: #001904;
+        color: white;
+        border: solid 1px white;
+        transition: border-color 60s ease;
+    }
+
+    label {
+        font-size: medium;
+
+    }
+
+
+}
+
+.submit-button button {
+    background: none;
+    border: none;
+    background-color: white;
+    width: 65%;
+    color: black;
+    padding: 11px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: large;
+}
+
+#message {
+    padding-bottom: 70px;
+}
+
+#whasap {
+    display: flex;
+    gap: 0.5cm;
+}
+
+#phone {
+    display: flex;
+    gap: 0.5cm;
+}
