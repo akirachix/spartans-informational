@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+}
+
+nav {
+  background: #025318;
+  padding: 10px 0;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+.menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: auto;
+}
+.logo img {
+  height: 40px;
+  margin-right: 10px;
+  vertical-align: middle;
+}
+.logo a {
+  color: white;
+  font-size: 28px;
+  font-weight: 700;
+  text-decoration: none;
+}
+.menu ul {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+}
+.menu ul li a {
+  color: #fff;
+  padding: 8px 16px;
+  border-radius: 5px;
+  font-weight: 500;
+  transition: background 0.3s;
+  text-decoration: none;
+}
+.menu ul li a:hover {
+  background: #fff;
+  color: #025318;
+}
+.hero-section {
+  background: linear-gradient(rgba(2,83,24,0.7),rgba(2,83,24,0.7)), url('images/hero-bg.jpg') center/cover no-repeat;
+  color: #fff;
+  text-align: center;
+  padding: 100px 20px 60px 20px;
+}
+.bigContainer {
+    padding-top: 250px;
+    padding-left: 6%;
+
+}
+
+.bigContainer h1 {
+    font-size: 70px;
+    color: white;
+    text-align: left;
+  
+}
+
+.button {
+    padding-top: 20px;
+}
+.learnmore {
+    cursor: pointer;
+    transition: background 0.3s;
+    padding: 17px;
+    width: 175px;
+    background-color: #011A05;
+    color: white;
+    text-decoration: none;
+    font-size: medium;
+    border-radius: 8px;
+    border: none;
+}
+.learnmore:hover {
+    background: #B8AC05;
+}
+.learnmore a {
+    text-decoration: none;
+    color: white;
+}
+#downloadapp {
+    padding: 17px;
+    width: 175px;
+    background-color: transparent;
+    color: #026612;
+    border: 2px solid #026612;
+    box-shadow: 0 3px 5px rgb(24, 23, 23);
+    border-radius: 8px;
+    margin-left: 4%;
+}
+.container {
+    background-image:url('images/black-white-spotty-cows-farm.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.7);
+    background-blend-mode: darken;
+    opacity: 10px;
+}
