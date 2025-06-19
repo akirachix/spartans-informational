@@ -130,3 +130,108 @@ h1{
     color: #025318;
     font-size: 50px;
 }
+
+
+@media (min-width: 1200px) {
+  .testimonial-slider {
+    max-width: 1200px;
+    margin-left: 19rem; 
+  }
+
+  .avatar {
+    margin-left: 30rem;
+    img {
+      width: 20%;
+      height: 40%;
+    }
+  }
+}
+
+
+@media (max-width: 1199px) and (min-width: 768px) {
+  .testimonial-slider {
+    max-width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 50vh;
+    font-size: 20px;
+    padding: 1.5rem;
+  }
+
+  .avatar {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100px;
+    height: 150px;
+    img {
+      position: relative;
+      width: 40%;
+      height: auto;
+      border-radius: 50%;
+    }
+  }
+
+  .review-text {
+    font-size: 18px;
+  }
+
+  h1 {
+    font-size: 40px;
+  }
+}
+
+@media (max-width: 767px) {
+  .testimonial-slider {
+    max-width: 95%;
+    margin: 3rem auto;
+    height: auto;
+    font-size: 16px;
+    padding: 1rem;
+  }
+
+  .avatar {
+    margin-left: 80px;
+    margin-right: auto;
+    width: 80px;
+    height: 120px;
+    img {
+      position: relative;
+      width: 250%;
+      height: 150%;
+      border-radius: 50%;
+    }
+  }
+
+  .review-text {
+    font-size: 16px;
+    padding: 0 10px;
+  }
+
+  .stars {
+    font-size: 18px;
+  }
+
+  .slider-nav button {
+    width: 35px;
+    height: 35px;
+    font-size: 1.2rem;
+    margin: 0 5px;
+  }
+
+  h1 {
+    font-size: 32px;
+    padding: 0 10px;
+  }
+
+  .review {
+    width: 90%;
+    padding: 20px;
+    margin-top: 20px;
+  }
+
+  .left-icon i,
+  .right-icon i {
+    margin-top: 200px;
+    padding: 15px;
+  }
+}
