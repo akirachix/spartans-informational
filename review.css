@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+body h1{
+    font-size: 70px;
+}
+
 .review-icons-image {
     display: flex;
     justify-content: space-around;
@@ -53,6 +59,7 @@
     margin-bottom: 0.2%;
     line-height: 77px;
 }
+
 .testimonial-slider {
     height: 60vh;
     font-size: 25px;
@@ -65,12 +72,24 @@
     margin-bottom: 7rem;
     margin-left: 19rem;
     position: relative;
-    p{
+
+    p {
         color: white;
         font-size: 25px;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Poppins', sans-serif;
+        text-decoration: none;
     }
-    span{
+
+    span {
         color: white;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Poppins', sans-serif;
+        text-decoration: none;
     }
 }
 
@@ -91,11 +110,11 @@
     height: 200px;
     border-radius: 50%;
     margin-left: 30rem;
-    img{
+
+    img {
         border-radius: 60%;
         position: absolute;
-        width: 20%;
-        height: 40%;
+        width: 40%;
     }
 
 }
@@ -105,6 +124,16 @@
     margin: 0.5rem 0;
 }
 
+.slider-nav {
+    position: absolute;
+    bottom: 20px; 
+    left: 10%;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 20px;
+    z-index: 10;
+}
+
 .slider-nav button {
     background: #025318;
     color: white;
@@ -112,7 +141,6 @@
     border-radius: 50%;
     width: 40px;
     height: 40px;
-    margin: 0 10px;
     font-size: 1.5rem;
     cursor: pointer;
     transition: background 0.3s;
@@ -125,113 +153,278 @@
 .review-text {
     font-size: 20px;
 }
-h1{
+
+h1 {
     text-align: center;
-    color: #025318;
+    color: #2C5434;
+    font-size: 54px;
+    font-weight: 2000px;
+    margin-top: 10px;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+}
+
+
+@media (min-width: 1281px) {
+    .testimonial-slider {
+        max-width: 1200px;
+        margin-left: 19rem;
+    }
+
+    .avatar {
+        margin-left: 30rem;
+
+        img {
+            width: 20%;
+            height: 40%;
+        }
+    }
+}
+
+@media (max-width: 1280px) and (min-width: 1051px) {
+    .testimonial-slider {
+        max-width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        height: 60vh;
+        font-size: 20px;
+        padding: 1.5rem;
+    }
+
+    .avatar {
+        margin-left: 27rem;
+        margin-right: auto;
+        width: 100px;
+        height: 150px;
+
+        img {
+            position: relative;
+            width: 250%;
+            height: 150%;
+            border-radius: 50%;
+        }
+    }
+
+    .review-text {
+        font-size: 18px;
+    }
+
+    h1 {
+        font-size: 40px;
+    }
+}
+
+@media (max-width: 1199px) and (min-width: 1051px) {
+    .testimonial-slider {
+        max-width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        height: 60vh;
+        font-size: 20px;
+        padding: 1.5rem;
+    }
+    .avatar {
+        margin-left: 25rem;
+        margin-right: auto;
+        width: 100px;
+        height: 150px;
+        img {
+            position: relative;
+            width: 250%;
+            height: 150%;
+            border-radius: 50%;
+        }
+    }
+    .review-text {
+        font-size: 18px;
+    }
+    h1 {
+        font-size: 40px;
+    }
+}
+@media (max-width: 1050px) and (min-width: 821px) {
+body h1{
     font-size: 50px;
 }
-
-
-@media (min-width: 1200px) {
-  .testimonial-slider {
-    max-width: 1200px;
-    margin-left: 19rem; 
-  }
-
-  .avatar {
-    margin-left: 30rem;
-    img {
-      width: 20%;
-      height: 40%;
+.testimonial.active {
+    padding-top: 100px;
+    display: block;
+    opacity: 1;
+    p{
+        font-size: 25px;
     }
-  }
+    span{
+       font-size: 25px; 
+    }
+}
+    .testimonial-slider {
+        max-width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        height: 80vh;
+        font-size: 20px;
+        padding: 1rem;
+    }
+    .avatar {
+        margin-left: 17rem;
+        margin-right: auto;
+        width: 100px;
+        height: 150px;
+        img {
+            position: relative;
+            width: 250%;
+            height: 150%;
+            border-radius: 50%;
+        }
+    }
+    .review-text {
+        font-size: 18px;
+    }
+    h1 {
+        font-size: 40px;
+    }
+}
+@media (max-width: 820px) and (min-width: 700px) {
+    .testimonial-slider {
+        max-width: 90%;
+        margin: 3rem auto;
+        height: 60vh;
+        font-size: 16px;
+        padding: 1rem;
+    }
+    .avatar {
+        margin-left: 16rem;
+        margin-right: auto;
+        width: 80px;
+        height: 120px;
+        img {
+            position: relative;
+            width: 250%;
+            height: 150%;
+            border-radius: 50%;
+        }
+    }
+    .review-text {
+        font-size: 16px;
+        padding: 0 10px;
+    }
+    .stars {
+        font-size: 18px;
+    }
+    .slider-nav {
+        bottom: 10px;
+        gap: 10px;
+    }
+    .slider-nav button {
+        width: 35px;
+        height: 35px;
+        font-size: 1.2rem;
+    }
+}
+    h1 {
+        font-size: 32px;
+        padding: 0 10px;
+    }
+    .review {
+        width: 90%;
+        padding: 20px;
+        margin-top: 20px;
+    }
+    .left-icon i,
+    .right-icon i {
+        margin-top: 200px;
+        padding: 15px;
+    }
+@media (max-width: 699px) and (min-width:400px){
+    body h1{
+        font-size: 40px;
+    }
+        .testimonial-slider {
+        max-width: 90%;
+        margin: 3rem auto;
+        height: 60vh;
+        font-size: 16px;
+        padding: 1rem;
+                p{
+            font-size: 16px;
+        }
+        span{
+          font-size: 16px;
+        }
+    }
+    .slider-nav {
+    position: absolute;
+    bottom: 20px; 
+    left: 19%;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 20px;
+    z-index: 10;
+}
+    .avatar {
+        margin-left: 5rem;
+        margin-right: auto;
+        width: 80px;
+        height: 120px;
+        img {
+            position: relative;
+            width: 250%;
+            height: 150%;
+            border-radius: 50%;
+        }
+    }
 }
 
-
-@media (max-width: 1199px) and (min-width: 768px) {
-  .testimonial-slider {
-    max-width: 90%;
-    margin-left: auto;
-    margin-right: auto;
-    height: 50vh;
-    font-size: 20px;
-    padding: 1.5rem;
-  }
-
-  .avatar {
-    margin-left: auto;
-    margin-right: auto;
-    width: 100px;
-    height: 150px;
-    img {
-      position: relative;
-      width: 40%;
-      height: auto;
-      border-radius: 50%;
+@media (max-width:399px){
+    body h1{
+        font-size: 40px;
     }
-  }
-
-  .review-text {
-    font-size: 18px;
-  }
-
-  h1 {
-    font-size: 40px;
-  }
+        .testimonial-slider {
+        max-width: 90%;
+        margin: 3rem auto;
+        height: 75vh;
+        font-size: 16px;
+        padding: 1rem;
+        p{
+            font-size: 14px;
+        }
+        span{
+          font-size: 14px;
+        }
+    }
+    .avatar {
+        margin-left: 4rem;
+        margin-right: auto;
+        width: 80px;
+        height: 120px;
+        img {
+            position: relative;
+            width: 250%;
+            height: 150%;
+            border-radius: 50%;
+        }
+    }
+.slider-nav {
+    position: absolute;
+    bottom: 20px; 
+    left: 19%;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 20px;
+    z-index: 10;
 }
 
-@media (max-width: 767px) {
-  .testimonial-slider {
-    max-width: 95%;
-    margin: 3rem auto;
-    height: auto;
-    font-size: 16px;
-    padding: 1rem;
-  }
-
-  .avatar {
-    margin-left: 80px;
-    margin-right: auto;
-    width: 80px;
-    height: 120px;
-    img {
-      position: relative;
-      width: 250%;
-      height: 150%;
-      border-radius: 50%;
-    }
-  }
-
-  .review-text {
-    font-size: 16px;
-    padding: 0 10px;
-  }
-
-  .stars {
-    font-size: 18px;
-  }
-
-  .slider-nav button {
-    width: 35px;
-    height: 35px;
-    font-size: 1.2rem;
-    margin: 0 5px;
-  }
-
-  h1 {
-    font-size: 32px;
-    padding: 0 10px;
-  }
-
-  .review {
-    width: 90%;
-    padding: 20px;
-    margin-top: 20px;
-  }
-
-  .left-icon i,
-  .right-icon i {
-    margin-top: 200px;
-    padding: 15px;
-  }
+.slider-nav button {
+    background: #025318;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    font-size: 1.5rem;
+    cursor: pointer;
+    transition: background 0.3s;
 }
+} 
