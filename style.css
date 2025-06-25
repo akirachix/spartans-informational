@@ -1,18 +1,1109 @@
-body {
-  font-family: 'Poppins', Arial, sans-serif;
-  background: #fff;
-  margin: 0;
-  padding: 0;
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    
 }
 
+.about-us h1 {
+    font-weight: 800;
+    font-size:  55px;
+    text-align: center;
+     color: #001904;
+     padding-bottom: 30px;
+
+}
+.about-us {
+    padding-top: 40px;
+}
+.image img {
+    border-radius: 10px;
+    opacity: 50% black;
+    box-shadow: 0 1px 3px black;
+}
+.best {
+    margin-top: 10%;
+}
+.best h2 {
+    font-size: 50px;
+    font-weight: normal;
+    text-align: left;
+    margin-bottom: 4%;
+    color: #001904;
+}
+.best p {
+    text-align: left;
+    font-size: 14px;
+}
+.making-best {
+    display: flex;
+    gap: 5cm;
+    padding-left: 30px;
+}
+.making-best h1{
+    font-size: 50px;
+    font-weight: normal;
+    color: #011204;
+    
+}
+.making-best p {
+    color: #034E16;
+}
+.commitment {
+    display: flex;
+    padding-left: 30px;
+    gap: 8cm;
+    /* margin-left: 3%; */
+    margin-top: 5%;
+    margin-bottom: 7%;
+}
+.commitments h1 {
+    font-size: 50px;
+    font-weight: normal;
+    text-align: left;
+    color: #011204;
+}
+.commitment p {
+    color: #034E16;
+    text-align: left;
+    font-size: 14px;
+}
+.experiences h2 {
+    font-size: 16px;
+    color: #001904;
+    padding-right: 20px;
+
+}
+.why-chose-agricreds {
+    align-items: center;
+    margin-bottom: 8%;
+}
+.agricreds {
+    text-align: center;
+    /* margin-bottom: 7%; */
+    padding-top: 40px;
+    padding-bottom: 60px;
+}
+.agricreds h1 {
+    font-size: 50px;
+    font-weight: normal;
+    text-align: center;
+    margin-bottom: 0.5%;
+    color: #011204;
+
+}
+.agricreds p {
+    color: #034E16;
+    font-size: 14px;
+}
+.about {
+    display: flex;
+    /* padding-left: 60px; */
+    margin-left: 8%;
+    margin-right: 8%;
+    gap: 3cm;
+}
+.about h1{
+    color: #001904;
+    font-size: 20px;
+}
+.about p {
+    color: #034E16;
+    font-size: 12px;
+}
+.about {
+    padding-top: 5px;
+}
+.rates img {
+    width: 70pt;
+}
+.terms img {
+    width: 40pt;
+}
+.support img {
+    width: 70px;
+}
+.loan-program {
+    display: flex;
+    gap: 2cm;
+    color: #001904;
+}
+
+.loan-program h2 {
+    color: #001904;
+    font-size: 20px;
+}
+.loan-programs h1{
+    color: #011204;
+
+}
+
+.loan-programs {
+    margin-left: 8%;
+    margin-right: 7%;
+    margin-top: 7%;
+    padding-bottom: 60px;
+}
+.loan-programs p {
+    color: #034E16;
+    font-size: 14px;
+}
+.loan-program img {
+    width: 20vw;
+    height: 26vh;
+    border-radius: 10px;
+    opacity: 50% black;
+    box-shadow: 0 1px 3px black;
+}
+.download-app {
+    background-image: url(images/monika-kubala-OpMfiq8nPI0-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-position: center;
+    margin-left: 2%;
+    margin-right: 2%;
+    border-radius: 15px;
+    background-color: rgba(0, 0, 0, 0.6);
+    background-blend-mode: darken;
+    opacity: 50px black;
+}
+.download-app h3 {
+    text-align: center;
+    color: white;
+    padding-top: 200px;
+    font-size: 25px;
+    font-weight: lighter;
+    margin-top: -45px;
+}
+.download-app p {
+    text-align: center;
+    padding-top: 10px;
+    font-size: 2px;
+    font-weight: 600;
+    color: white;
+    padding-bottom: 30px;
+}
+.download-app button {
+    margin-top: 0.5%;
+    padding: 17px;
+    width: 15%;
+    background-color: #011A05;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin-left: 41%;
+    font-size: medium;
+}
+.container {
+    background-image: url(images/black-white-spotty-cows-farm.jpg);
+    background-color: rgba(0, 0, 0, 0.7);
+    background-blend-mode: darken;
+    background-size: cover;
+    height: 100vh;
+}
+.image img {
+    width: 40vw;
+    height: 70vh;
+}
+
+.experiences {
+    margin-top: 3%;
+    display: flex;
+    gap: 6cm;
+    padding-top: 32px;
+}
+.images img {
+    width: 8vw;
+    height: 12vh;
+    margin-left: 15%;
+}
+.partnerships h1 {
+    font-size: 50px;
+    font-weight: normal;
+    text-align: center;
+    margin-bottom: 0.5%;
+    line-height: 77px;
+    color: #001904;
+}
+.partnerships h2 {
+    padding-left: 40px;
+    padding-bottom: 30px;
+    font-size: 30px;
+    color: #001904;
+    margin-left: 5%;
+}
+.partnerships {
+    margin-top: 12%;
+    padding-bottom: 60px;
+}
+.loan-programs h1 {
+    font-size: 50px;
+    font-weight: normal;
+    text-align: center;
+    margin-bottom: 4%;
+  
+}
+
+
+
+
+@media (min-width:1025px) and (max-width:1300px){
+     .about-us h1, .agricreds h1, .best h1,  .commitments h1, .loan-programs h1, .partnerships  h1 {
+  font-size: 45px;
+ }
+ .experiences h2, .loan-program h2, .partnerships h2 {
+  font-size: 25px;
+ }
+ .about-us p, .agricreds p, .best p, .commitments p, .download-app p, .experiences p, .loan-programs p, .making-best p, .partnerships p, .about p {
+  font-size: 18px;
+ }
+ .best {
+    margin-top: 8%;
+}
+.making-best {
+    display: flex;
+    gap: 3cm;
+    padding-left: 35px;
+
+}
+.making-best p{
+    text-align: left;
+
+
+}
+.experiences h2{
+    font-size: 20px;
+}
+.image img {
+    border-radius: 10px;
+    opacity: 50% black;
+    box-shadow: 0 1px 3px black;
+    width: 100%;
+    height: 40vw;
+}
+.about h1{
+    font-size: 25px;
+}
+.about {
+    display: flex;
+    /* padding-left: 60px; */
+    margin-left: 6.5%;
+    margin-right: 6.5%;
+    gap: 2cm;
+}
+.commitment {
+    display: flex;
+    padding-left: 30px;
+    gap: 3cm;
+    /* margin-left: 3%; */
+    margin-top: 7%;
+    margin-bottom: 7%;
+    
+}
+.experiences {
+    margin-top: 1%;
+    display: flex;
+    gap: 3cm;
+    padding-right: 50px;
+    padding-top: 60px;
+}
+.loan-programs {
+    margin-left: 7%;
+    margin-right: 5%;
+    margin-top: 7%;
+    padding-bottom: 60px;
+}
+.loan-programs h2{
+    font-size: 24px;
+}
+.download-app h3 {
+    text-align: center;
+    color: white;
+    padding-top: 200px;
+    font-size: xx-large;
+    font-weight: lighter;
+}
+.download-app p {
+    text-align: center;
+    padding-top: 50px;
+    font-size: 30px;
+    /* font-weight: 100; */
+    color: white;
+    padding-bottom: 50px;
+}
+.download-app button {
+    margin-top: 2%;
+    padding: 17px;
+    width: 25%;
+    background-color: #011A05;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin-left: 38%;
+    font-size: large;
+}
+.download-app {
+    background-image: url(images/monika-kubala-OpMfiq8nPI0-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 80vh;
+    background-position: center;
+    margin-left: 2%;
+    margin-right: 2%;
+    border-radius: 15px;
+    background-color: rgba(0, 0, 0, 0.6);
+    background-blend-mode: darken;
+    opacity: 50px black;
+}
+.partnerships h2 {
+    padding-left: 40px;
+    padding-bottom: 30px;
+    font-size: 28px;
+    color: #001904;
+    margin-left: 3%;
+}
+.images img {
+    width: 9vw;
+    height: 12vh;
+    margin-left: 12%;
+}
+
+}
+
+@media (min-width:901px) and (max-width:1024px){
+       .about-us h1, .agricreds h1, .best h1,  .commitments h1, .loan-programs h1, .partnerships  h1 {
+  font-size: 42px;
+ }
+ .experiences h2, .loan-program h2, .partnerships h2 {
+  font-size: 20px;
+ }
+ .about-us p, .agricreds p, .best p, .commitments p, .download-app p, .experiences p, .loan-programs p, .making-best p, .partnerships p, .about p {
+  font-size: 15px;
+ }
+ .best {
+    margin-top: 8%;
+}
+.making-best {
+    display: flex;
+    gap: 2cm;
+    padding-left: 35px;
+
+}
+.making-best p{
+    text-align: left;
+
+
+}
+.experiences h2{
+    font-size: 16px;
+}
+.image img {
+    border-radius: 10px;
+    opacity: 50% black;
+    box-shadow: 0 1px 3px black;
+    width: 100%;
+    height: 40vw;
+}
+.about h1{
+    font-size: 22px;
+}
+.about {
+    display: flex;
+    /* padding-left: 60px; */
+    margin-left: 6.5%;
+    margin-right: 6.5%;
+    gap: 2cm;
+}
+.commitment {
+    display: flex;
+    padding-left: 30px;
+    gap: 2cm;
+    /* margin-left: 3%; */
+    margin-top: 7%;
+    margin-bottom: 7%;
+    
+}
+.experiences {
+    margin-top: 1%;
+    display: flex;
+    gap: 2cm;
+    padding-right: 50px;
+    padding-top: 55px;
+}
+.loan-programs {
+    margin-left: 7%;
+    margin-right: 5%;
+    margin-top: 7%;
+    padding-bottom: 60px;
+}
+.loan-programs h2{
+    font-size: 18px;
+}
+.download-app h3 {
+    text-align: center;
+    color: white;
+    padding-top: 150px;
+    font-size: xx-large;
+    font-weight: lighter;
+}
+.download-app p {
+    text-align: center;
+    padding-top: 50px;
+    font-size: 30px;
+    /* font-weight: 100; */
+    color: white;
+    padding-bottom: 30px;
+}
+.download-app button {
+    margin-top: 2%;
+    padding: 17px;
+    width: 25%;
+    background-color: #011A05;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin-left: 38%;
+    font-size: large;
+}
+.download-app {
+    background-image: url(images/monika-kubala-OpMfiq8nPI0-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 90vh;
+    background-position: center;
+    margin-left: 2%;
+    margin-right: 2%;
+    border-radius: 15px;
+    background-color: rgba(0, 0, 0, 0.6);
+    background-blend-mode: darken;
+    opacity: 50px black;
+}
+.partnerships h2 {
+    padding-left: 40px;
+    padding-bottom: 30px;
+    font-size: 28px;
+    color: #001904;
+    margin-left: 3%;
+}
+.images img {
+    width: 9vw;
+    height: 12vh;
+    margin-left: 12%;
+}
+}
+
+@media (min-width:1301px) and (max-width:1366px){
+         .about-us h1, .agricreds h1, .best h1,  .commitments h1, .loan-programs h1, .partnerships  h1 {
+  font-size: 54px;
+ }
+ .experiences h2, .loan-program h2, .partnerships h2 {
+  font-size: 32px;
+ }
+ .about-us p, .agricreds p, .best p, .commitments p, .download-app p, .experiences p, .loan-programs p, .making-best p, .partnerships p, .about p {
+  font-size: 20px;
+ }
+ .best {
+    margin-top: 8%;
+}
+.making-best {
+    display: flex;
+    gap: 2cm;
+    padding-left: 35px;
+
+}
+.making-best p{
+    text-align: left;
+
+
+}
+.experiences h2{
+    font-size: 20px;
+}
+.image img {
+    border-radius: 10px;
+    opacity: 50% black;
+    box-shadow: 0 1px 3px black;
+    width: 100%;
+    height: 40vw;
+}
+.about h1{
+    font-size: 30px;
+}
+.about {
+    display: flex;
+    /* padding-left: 60px; */
+    margin-left: 6.5%;
+    margin-right: 6.5%;
+    gap: 2cm;
+}
+.commitment {
+    display: flex;
+    padding-left: 30px;
+    gap: 2cm;
+    /* margin-left: 3%; */
+    margin-top: 7%;
+    margin-bottom: 7%;
+    
+}
+.experiences {
+    margin-top: 1%;
+    display: flex;
+    gap: 2cm;
+    padding-right: 50px;
+    padding-top: 80px;
+}
+.loan-programs {
+    margin-left: 7%;
+    margin-right: 5%;
+    margin-top: 7%;
+    padding-bottom: 60px;
+}
+.loan-programs h2{
+    font-size: 25px;
+}
+.download-app h3 {
+    text-align: center;
+    color: white;
+    padding-top: 200px;
+    font-size: 37px;
+    font-weight: lighter;
+}
+.download-app p {
+    text-align: center;
+    padding-top: 50px;
+    font-size: 38px;
+    /* font-weight: 100; */
+    color: white;
+    padding-bottom: 50px;
+}
+.download-app button {
+    margin-top: 2%;
+    padding: 17px;
+    width: 25%;
+    background-color: #011A05;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin-left: 38%;
+    font-size: 29px;
+}
+.download-app {
+    background-image: url(images/monika-kubala-OpMfiq8nPI0-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 90vh;
+    background-position: center;
+    margin-left: 2%;
+    margin-right: 2%;
+    border-radius: 15px;
+    background-color: rgba(0, 0, 0, 0.6);
+    background-blend-mode: darken;
+    opacity: 50px black;
+}
+
+.download-app p{
+  font-size: 25px;
+  
+}
+.partnerships h2 {
+    padding-left: 40px;
+    padding-bottom: 30px;
+    font-size: 35px;
+    color: #001904;
+    margin-left: 3%;
+}
+.images img {
+    width: 12vw;
+    height: 12vh;
+    margin-left: 10%;
+}
+}
+
+
+@media (min-width:451px) and (max-width:768px){
+       .about-us h1, .agricreds h1, .best h1,  .commitments h1, .loan-programs h1, .partnerships  h1 {
+  font-size: 38px;
+ }
+ .experiences h2, .loan-program h2, .partnerships h2 {
+  font-size: 17px;
+ }
+ .about-us p, .agricreds p, .best p, .commitments p, .download-app p, .experiences p, .loan-programs p, .making-best p, .partnerships p, .about p {
+  font-size: 15.5px;
+ }
+ .best {
+    margin-top: 8%;
+}
+.best h2{
+    font-size: 38px;
+}
+.about-us h1{
+    font-size: 43px;
+}
+.making-best {
+    display: flex;
+    gap: 2cm;
+    padding-left: 35px;
+
+}
+.making-best p{
+    text-align: left;
+
+
+}
+.commitment h1{
+    text-align: center;
+}
+.commitment p{
+    text-align: center;
+}
+.experiences h2{
+    font-size: 24px;
+}
+  .image img {
+    border-radius: 10px;
+    opacity: 50% black;
+    box-shadow: 0 1px 3px black;
+    width: 110%;
+    height: 55vw;
+   
+    }
+.about h1{
+    font-size: 20px;
+}
+.about {
+  flex-direction: column;
+    margin-left: 6.5%;
+    margin-right: 6.5%;
+    gap: 1cm;
+}
+.commitment {
+    flex-direction: column;
+    gap: 1cm;
+    /* margin-left: 3%; */
+    margin-top: 7%;
+    margin-bottom: 7%;
+    
+}
+.experiences {
+    margin-top: 1%;
+    display: flex;
+    gap: 2cm;
+    padding-right: 15px;
+    padding-top: 85px;
+    padding-left: 15px;
+}
+.exp1{
+    display: flex;
+    gap: 1cm;
+
+}
+.exp2{
+    display: flex;
+    gap: 1.5cm;
+}
+.loan-programs {
+    margin-left: 7%;
+    margin-right: 5%;
+    margin-top: 7%;
+    padding-bottom: 60px;
+   
+}
+.loan-programs h2{
+    font-size: 25px;
+}
+.loan-programs p{
+    font-size: 18px;
+}
+.loan-program img {
+    width: 80%;
+    height: 35vh;
+    border-radius: 10px;
+    opacity: 50% black;
+    box-shadow: 0 1px 3px black;
+    margin-left: 50px;
+
+    }
+    .loan-program {
+   flex-direction: column;
+    color: #001904;
+}
+
+
+.download-app h3 {
+    text-align: center;
+    color: white;
+    padding-top: 150px;
+    font-size: xx-large;
+    font-weight: lighter;
+}
+.download-app p {
+    text-align: center;
+    padding-top: 50px;
+    font-size: 30px;
+    /* font-weight: 100; */
+    color: white;
+    padding-bottom: 30px;
+}
+.download-app button {
+    margin-top: 2%;
+    padding: 17px;
+    width: 25%;
+    background-color: #011A05;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin-left: 38%;
+    font-size: larger;
+}
+.download-app {
+    background-image: url(images/monika-kubala-OpMfiq8nPI0-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 50vh;
+    background-position: center;
+    margin-left: 2%;
+    margin-right: 2%;
+    border-radius: 15px;
+    background-color: rgba(0, 0, 0, 0.6);
+    background-blend-mode: darken;
+    opacity: 50px black;
+}
+.partnerships h2 {
+    padding-left: 40px;
+    padding-bottom: 30px;
+    font-size: 25px;
+    color: #001904;
+    margin-left: 3%;
+}
+.images img {
+    width: 12vw;
+    height: 12vh;
+    margin-left: 10%;
+}
+}
+
+
+@media (min-width:769px) and (max-width:900px){
+       .about-us h1, .agricreds h1, .best h1,  .commitments h1, .loan-programs h1, .partnerships  h1 {
+  font-size: 39px;
+ }
+ .experiences h2, .loan-program h2, .partnerships h2 {
+  font-size: 18px;
+ }
+ .about-us p, .agricreds p, .best p, .commitments p, .download-app p, .experiences p, .loan-programs p, .making-best p, .partnerships p, .about p {
+  font-size: 18px;
+ }
+ .best {
+    margin-top: 8%;
+}
+.about-us h1{
+    font-size: 49px;
+}
+.making-best {
+    display: flex;
+    gap: 2cm;
+    padding-left: 35px;
+
+}
+.best h2{
+    font-size: 38px;
+}
+.making-best p{
+    text-align: left;
+}
+.experiences h2{
+    font-size: 25px;
+}
+.exp1{
+    display: flex;
+    gap: 1cm;
+
+}
+.exp2{
+    display: flex;
+    gap: 1.5cm;
+}
+ .image img {
+    border-radius: 10px;
+    opacity: 50% black;
+    box-shadow: 0 1px 3px black;
+    width: 110%;
+    height: 55vw;
+   
+    }
+.about h1{
+    font-size: 25px;
+}
+.about p{
+    font-size: 22px;
+}
+.about {
+  flex-direction: column;
+    margin-left: 6.5%;
+    margin-right: 6.5%;
+    gap: 1cm;
+}
+.commitment h1{
+    text-align: center;
+}
+.commitment p{
+    text-align: center;
+    font-size: 21px;
+}
+.commitment {
+    flex-direction: column;
+    gap: 1cm;
+    /* margin-left: 3%; */
+    margin-top: 7%;
+    margin-bottom: 7%;
+    
+}
+.experiences {
+    margin-top: 1%;
+    display: flex;
+    gap: 2cm;
+    padding-right: 15px;
+    padding-top: 85px;
+    padding-left: 15px;
+}
+.experiences p{
+    font-size: 18px;
+}
+.loan-programs {
+    margin-left: 7%;
+    margin-right: 5%;
+    margin-top: 7%;
+    padding-bottom: 60px;
+}
+.loan-program p{
+    font-size: 23px;
+}
+.loan-programs h2{
+    font-size: 25px;
+}
+   .loan-program {
+   flex-direction: column;
+    color: #001904;
+}
+.loan-program img {
+    width: 80%;
+    height: 35vh;
+    border-radius: 10px;
+    opacity: 50% black;
+    box-shadow: 0 1px 3px black;
+    margin-left: 50px;
+
+    }
+
+.download-app h3 {
+    text-align: center;
+    color: white;
+    padding-top: 150px;
+    font-size: 45px;
+    font-weight: lighter;
+}
+.download-app p {
+    text-align: center;
+    padding-top: 50px;
+    font-size: 32px;
+    /* font-weight: 100; */
+    color: white;
+    padding-bottom: 30px;
+}
+.download-app button {
+    margin-top: 2%;
+    padding: 17px;
+    width: 35%;
+    background-color: #011A05;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin-left: 38%;
+    font-size: 25px;
+}
+.download-app {
+    background-image: url(images/monika-kubala-OpMfiq8nPI0-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 50vh;
+    background-position: center;
+    margin-left: 2%;
+    margin-right: 2%;
+    border-radius: 15px;
+    background-color: rgba(0, 0, 0, 0.6);
+    background-blend-mode: darken;
+    opacity: 50px black;
+}
+.partnerships h2 {
+    padding-left: 40px;
+    padding-bottom: 30px;
+    font-size: 28px;
+    color: #001904;
+    margin-left: 3%;
+}
+.images img {
+    width: 12vw;
+    height: 12vh;
+    margin-left: 10%;
+}
+}
+
+
+@media (max-width:450px){
+       .about-us h1, .agricreds h1, .best h1,  .commitments h1, .loan-programs h1, .partnerships  h1 {
+  font-size: 35px;
+ }
+ .experiences h2, .loan-program h2, .partnerships h2 {
+  font-size: 19px;
+ }
+ .about-us p, .agricreds p, .best p, .commitments p, .download-app p, .experiences p, .loan-programs p, .making-best p, .partnerships p, .about p {
+  font-size: 16px;
+ }
+ .best {
+    margin-top: 8%;
+}
+.best h2{
+    font-size: 35px;
+}
+.about-us h1{
+    font-size: 40px;
+}
+ .making-best, .commitment, .about, .loan-program, .partnerships .images {
+        flex-direction: column;
+         align-items: center; 
+         gap: 25px;
+    } 
+.making-best {
+    display: flex;
+    gap: 2cm;
+    padding-left: 35px;
+
+}
+.making-best p{
+    text-align: left;
+
+
+}
+.experiences h2{
+    font-size: 20px;
+}
+
+  .image img {
+    border-radius: 10px;
+    opacity: 50% black;
+    box-shadow: 0 1px 3px black;
+    width: 85%;
+    height: 90vw;
+    margin-left: 15px;
+    }
+.about h1{
+    font-size: 17px;
+}
+.about {
+    display: flex;
+    /* padding-left: 60px; */
+    margin-left: 6.5%;
+    margin-right: 6.5%;
+    gap: 2cm;
+}
+.commitment {
+    display: flex;
+    padding-left: 30px;
+    gap: 2cm;
+    /* margin-left: 3%; */
+    margin-top: 7%;
+    margin-bottom: 7%;
+    
+}
+.experiences {
+    margin-top: 1%;
+    display: flex;
+    gap: 2cm;
+    padding-right: 50px;
+    padding-top: 55px;
+}
+.loan-programs {
+    margin-left: 7%;
+    margin-right: 5%;
+    margin-top: 7%;
+    padding-bottom: 60px;
+}
+.loan-programs h2{
+    font-size: 20px;
+}
+.download-app h3 {
+    text-align: center;
+    color: white;
+    padding-top: 150px;
+    font-size: xx-large;
+    font-weight: lighter;
+}
+.download-app p {
+    text-align: center;
+    padding-top: 50px;
+    font-size: 25px;
+    /* font-weight: 100; */
+    color: white;
+    padding-bottom: 30px;
+}
+  .download-app button {
+    margin-top: 2%;
+    padding: 17px;
+    width: 55%;
+    background-color: #011A05;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin-left: 25%;
+    font-size: large;
+    } 
+.download-app {
+    background-image: url(images/monika-kubala-OpMfiq8nPI0-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 60vh;
+    background-position: center;
+    margin-left: 2%;
+    margin-right: 2%;
+    border-radius: 15px;
+    background-color: rgba(0, 0, 0, 0.6);
+    background-blend-mode: darken;
+    opacity: 50px black;
+}
+.partnerships h2 {
+    padding-left: 40px;
+    padding-bottom: 30px;
+    font-size: 24px;
+    color: #001904;
+    margin-left: 3%;
+}
+  .images img {
+    width: 40vw;
+    height: 18vh;
+    margin-left: 28%;
+    flex-direction: column;
+    }
+    .loan-program img {
+    width: 100%;
+    height: 26vh;
+    border-radius: 10px;
+    opacity: 50% black;
+    box-shadow: 0 1px 3px black;
+    }
+
+}
+
+
 .reviews-title {
-  color: #17693E;
-  margin-top: 100px;
-  margin-bottom: 80px;
-  font-size: 60px;
-  font-weight: 700;
-  text-align: center;
-  letter-spacing: 0.5px;
+  font-size: 50px;
+    font-weight: normal;
+    text-align: center;
+    margin-bottom: 4%;
+    color:  #001904;
 }
 
 .review-card {
@@ -24,18 +1115,19 @@ body {
   height: 60vh;
   min-height: 420px;
   margin: 0 auto;
-  padding: 330px 60px 2px 60px;
+  padding: 350px 60px 2px 60px;
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
   align-items: center;
   box-shadow: 0 6px 24px rgba(44, 100, 44, 0.06);
   justify-content: center;
+  margin-bottom: 30px;
 }
 
 .review-image {
-  width: 190px;
-  height: 190px;
+  width: 130px;
+  height: 130px;
   background: #fff;
   border-radius: 50%;
   margin-top: -400px;
