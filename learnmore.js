@@ -1,14 +1,58 @@
-document.querySelectorAll('nav ul li a').forEach(link => {
-  link.addEventListener('click', function(e) {
-    if (this.hash) {
-      e.preventDefault();
-      document.querySelector(this.hash).scrollIntoView({ behavior: 'smooth' });
+
+// document.addEventListener('DOMContentLoaded', () => {
+//   const hamburger = document.getElementById('hamburger');
+//   const navLinks = document.getElementById('nav-links');
+//   hamburger.addEventListener('click', () => {
+//     navLinks.classList.toggle('open');
+//     hamburger.classList.toggle('open');
+//   });
+//   document.querySelectorAll('.nav-links a').forEach(link => {
+//     link.addEventListener('click', () => {
+//       if (window.innerWidth <= 700) {
+//         navLinks.classList.remove('open');
+//         hamburger.classList.remove('open');
+//       }
+//     });
+//   });
+// });
+
+// document.addEventListener('DOMContentLoaded', () => {
+//   const hamburger = document.getElementById('hamburger');
+//   const navLinks = document.getElementById('nav-links');
+
+//   hamburger.addEventListener('click', () => {
+//     navLinks.classList.toggle('open'); // Toggle nav links visibility
+//     hamburger.classList.toggle('open'); // Toggle hamburger to X
+//   });
+
+//   document.querySelectorAll('.nav-links a').forEach(link => {
+//     link.addEventListener('click', () => {
+//       if (window.innerWidth <= 700) {
+//         navLinks.classList.remove('open'); // Close nav links on link click
+//         hamburger.classList.remove('open'); // Change hamburger back to normal
+//       }
+//     });
+//   });
+// });
+
+document.addEventListener('DOMContentLoaded', () => {
+  const hamburger = document.getElementById('hamburger');
+  const navLinks = document.getElementById('nav-links');
+
+  hamburger.addEventListener('click', () => {
+    // Only toggle if the window width is 700px or less
+    if (window.innerWidth <= 700) {
+      navLinks.classList.toggle('open'); // Toggle nav links visibility
+      hamburger.classList.toggle('open'); // Toggle hamburger to X
     }
   });
-});
-// Contact form feedback
-document.getElementById('contactForm').addEventListener('submit', function(e) {
-  e.preventDefault();
-  document.getElementById('formMessage').textContent = "Thank you for reaching out! We'll get back to you soon.";
-  this.reset();
+
+  document.querySelectorAll('.nav-links a').forEach(link => {
+    link.addEventListener('click', () => {
+      if (window.innerWidth <= 700) {
+        navLinks.classList.remove('open'); // Close nav links on link click
+        hamburger.classList.remove('open'); // Change hamburger back to normal
+      }
+    });
+  });
 });
