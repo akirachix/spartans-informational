@@ -10,62 +10,57 @@
 
 nav {
   background: #025318;
-  padding: 10px 0;
+  padding: 16px 0;
   position: sticky;
   top: 0;
-  z-index: 100;
 }
 .menu {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  max-width: 1200px;
   margin: auto;
+  margin-right: 4%;
+  margin-left: 4%;
 }
 .logo img {
-  height: 40px;
-  margin-right: 10px;
+  height: 50px;
   vertical-align: middle;
 }
 .logo a {
   color: white;
   font-size: 28px;
-  font-weight: 700;
+  font-weight: 600;
   text-decoration: none;
 }
-.menu ul {
+.menu{
   display: flex;
   gap: 20px;
   list-style: none;
 }
-.menu ul li a {
+.nav-links a{
   color: #fff;
   padding: 8px 16px;
   border-radius: 5px;
-  font-weight: 500;
+  font-weight: 700;
   transition: background 0.3s;
   text-decoration: none;
+  font-size: 15px;
 }
-.menu ul li a:hover {
+.nav-links a:hover {
   background: #fff;
   color: #025318;
 }
-.hero-section {
-  background: linear-gradient(rgba(2,83,24,0.7),rgba(2,83,24,0.7)), url('images/hero-bg.jpg') center/cover no-repeat;
-  color: #fff;
-  text-align: center;
-  padding: 100px 20px 60px 20px;
-}
 .bigContainer {
-    padding-top: 250px;
-    padding-left: 6%;
+    padding-top: 9%;
+    text-align: center;
+    /* padding-left: 3.4%; */
 
 }
-
 .bigContainer h1 {
-    font-size: 70px;
+    font-size: 90px;
     color: white;
-    text-align: left;
+    margin-left: 3.389%;
+    /* margin-right: 2.5%; */
   
 }
 
@@ -75,31 +70,36 @@ nav {
 .learnmore {
     cursor: pointer;
     transition: background 0.3s;
-    padding: 17px;
-    width: 175px;
-    background-color: #011A05;
-    color: white;
+    padding: 19px 49px;
+    background-color: #CDC72A;
+    color: #025318;
     text-decoration: none;
     font-size: medium;
     border-radius: 8px;
     border: none;
+    margin-left: -5%;
+    /* justify-content: center; */
 }
 .learnmore:hover {
     background: #B8AC05;
 }
-.learnmore a {
+.learnmore a,#downloadapp a {
     text-decoration: none;
     color: white;
+    font-weight: 800;
+}
+.learnmore a{
+    color: #025318;
 }
 #downloadapp {
-    padding: 17px;
-    width: 175px;
+     padding: 19px 49px;
     background-color: transparent;
-    color: #026612;
-    border: 2px solid #026612;
+    color:white;
+    border: 2px solid #CDC72A;
     box-shadow: 0 3px 5px rgb(24, 23, 23);
     border-radius: 8px;
-    margin-left: 4%;
+    margin-left: 5%;
+    font-weight: bold;
 }
 .container {
     background-image:url('images/black-white-spotty-cows-farm.jpg');
@@ -107,7 +107,266 @@ nav {
     background-position: center;
     background-repeat: no-repeat;
     height: 100vh;
-    background-color: rgba(0, 0, 0, 0.7);
+    background-color: rgba(0, 0, 0, 0.8);
     background-blend-mode: darken;
     opacity: 10px;
 }
+.close-btn{
+  display: none;
+  font-size: 30px;
+  cursor: pointer;
+  position: absolute;
+  top: 10px;
+  right: 32px;
+  color:white;
+}
+
+
+   .nav-links {
+    flex-direction: column;
+    align-items: stretch;
+     text-align: left;
+    position: fixed;
+    top: 0;
+    right: -100vw;
+    /* background: #fff; */
+    width: 100%;
+    height: 100vh;
+    padding-top: 90px;
+    z-index: 1000;
+    gap: 30px;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+    transition: right 0.3s;
+}
+
+.nav-links.active {
+  right: 0;
+}
+
+.nav-links a {
+  padding: 15px 20px;
+  text-decoration: none;
+  color:white;
+  font-size: 18px;
+}
+
+.close-btn {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  font-size: 24px;
+  cursor: pointer;
+}
+/* .hamburger {
+    display: none;
+  }
+
+  .close-btn {
+    display: none;
+  } */
+@media (max-width:450px){
+.nav-links{
+        background: #fff;
+        a{
+            color: #025318;
+        }
+}
+.bigContainer h1{
+  font-size: 43px;
+  text-align: center;
+  margin-top: 5%;
+}
+  .close-btn {
+    display: block;
+    color: #025318;
+  }
+  .fa-bars{
+    color: white;
+    font-size: 26px;
+  }
+   .button {
+        flex-direction: column;
+    .learnmore,
+    #downloadapp {
+        width: 60%;
+        text-align: center;
+        margin-top: 5%;
+    }
+}
+.learnmore{
+  margin-left: 1%;
+}
+#downloadapp{
+    margin-left: 1%;
+    padding: 19px 39px;
+}
+ .nav-links {
+    display: flex;
+  }
+
+}
+@media screen and (min-width:451px) and (max-width: 765px) {
+    .menu #nav-links.active {
+        display: flex;
+    }
+
+    .logo a {
+        font-size: 20px;
+    }
+
+    .bigContainer h1 {
+        font-size: 38px;
+        margin-top: 14%;
+        /* margin-left: 5%; */
+        text-align: center;
+    }
+ .button {
+        flex-direction: column;
+    .learnmore,
+    #downloadapp {
+        width: 60%;
+        text-align: center;
+        margin-top: 5%;
+    }
+}
+.learnmore{
+  margin-left: 1%;
+}
+#downloadapp{
+    margin-left: 1%;
+    padding: 19px 39px;
+}
+.container{
+  height: 100vh;
+  font-size: 0.8em;
+}
+   .close-btn {
+    display: block;
+    color: #025318;
+  }
+  .fa-bars{
+    color: white;
+    font-size: 26px;
+  }
+.nav-links{
+        background: #fff;
+        a{
+            color: #025318;
+        }
+}
+
+}
+@media screen and (min-width:765px) and (max-width: 900px){
+  .bigContainer h1{
+    font-size: 0.5in;
+    text-align: center;
+    margin-top: 15%;
+
+  }
+ /* .learnmore{
+  margin-left: 20%;
+ } */
+
+  .nav-links {
+    position: static;
+    flex-direction: row;
+    box-shadow: none;
+    padding-top: 0;
+    display: flex;
+    width: auto;
+    height: auto;
+    right: auto;
+    color: white;
+  }
+
+  .hamburger {
+    display: none;
+  }
+
+  .close-btn {
+    display: none;
+  }
+  .logo a{
+    font-size: 22px;
+  }
+  .nav-links a{
+    font-size: 14px;
+  }
+}
+@media screen and (min-width:901px) and (max-width: 1024px){
+ .bigContainer h1{
+    font-size: 0.6in;
+    margin-top: 4%;
+  }
+   .nav-links {
+    position: static;
+    flex-direction: row;
+    box-shadow: none;
+    padding-top: 0;
+    display: flex;
+    width: auto;
+    height: auto;
+    right: auto;
+    color: white;
+  }
+
+  .hamburger {
+    display: none;
+  }
+
+  .close-btn {
+    display: none;
+  }
+}
+@media screen and (min-width:1025px) and (max-width: 1300px){
+   .bigContainer h1{
+    font-size: 0.8in;
+    color: white;
+    margin-left: 3.389%;
+    margin-right: 2.5%;
+  
+}
+ .nav-links {
+    position: static;
+    flex-direction: row;
+    box-shadow: none;
+    padding-top: 0;
+    display: flex;
+    width: auto;
+    height: auto;
+    right: auto;
+    color: white;
+  }
+
+  .hamburger {
+    display: none;
+  }
+
+  .close-btn {
+    display: none;
+  }
+}
+@media (min-width:1300px){
+ .nav-links {
+    position: static;
+    flex-direction: row;
+    box-shadow: none;
+    padding-top: 0;
+    display: flex;
+    width: auto;
+    height: auto;
+    right: auto;
+    color: white;
+  }
+
+  .hamburger {
+    display: none;
+  }
+
+  .close-btn {
+    display: none;
+  }
+}
+
+ 
+

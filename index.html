@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
@@ -11,25 +12,54 @@
         <nav>
         <div class="menu">
             <div class="logo">
-                <img src="images/logo.png" alt="AgriCreds Logo">
+                <img src="images/sizedarkgreenlogo.svg" alt="AgriCreds Logo">
                 <a href="index.html">AGRICREDS</a>
             </div>
-            <ul>
-                <li><a href="index.html">HOME</a></li>
-                <li><a href="#about-us">ABOUT US</a></li>
-                <li><a href="#reviews">REVIEWS</a></li>
-                <li><a href="#footer">CONTACT</a></li>
-            </ul>
-        </div>
-    </nav>
-        <div class="bigContainer">
-            <h1>Empowering farmers <br>with financial<br> solutions</h1>
-            <div class="button">
-                <button class="learnmore"><a href="learnmore.html">LEARN MORE</a></button>
-                <button id="downloadapp">DOWNLOAD APP</button>
-            </div>
+              <div class="hamburger" id="hamburger">
+        <i class="fa fa-bars"></i>
+      </div>
+            
+            <div id="nav-links" class="nav-links">
+                <div class="close-btn" id="closeMenu">
+                <i class="fa fa-times"></i>
+                </div>
+                <a href="index.html">HOME</a>
+                <a href="#about-us">ABOUT US</a>
+                <a href="#reviews">REVIEWS</a>
+                <a href="#footer">CONTACT</a>
         </div>
     </div>
+    </nav>
+        <div class="bigContainer">
+            <h1>Empowering farmers with financial solutions</h1>
+            <div class="button">
+                <button class="learnmore"><a href="learnmore.html">LEARN MORE</a></button>
+                <button id="downloadapp"><a href="">DOWNLOAD APP</a></button>
+            </div>
+        </div>
+        
+    </div>
+    <script>
+  const hamburger = document.getElementById('hamburger');
+  const navLinks = document.getElementById('nav-links');
+  const closeBtn = document.getElementById('closeMenu');
 
+
+  hamburger.addEventListener('click', () => {
+    navLinks.classList.add('active');
+  });
+
+  closeBtn.addEventListener('click', () => {
+    navLinks.classList.remove('active');
+  });
+
+
+  document.querySelectorAll('.nav-links a').forEach(link => {
+    link.addEventListener('click', () => {
+      navLinks.classList.remove('active');
+    });
+  });
+
+</script>
     </body>
 </html>
