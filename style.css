@@ -1,0 +1,620 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+
+}
+
+
+
+.footercontainer {
+    background-color: #001904;
+    color: rgb(216, 215, 215);
+    padding-top: 2rem;
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    overflow-x: hidden;
+
+}
+
+.contactsection {
+    display: flex;
+    margin-left: 5rem;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+
+.contactus,
+.links,
+.services {
+    margin-bottom: 2rem;
+    font-size: 1rem;
+    color: white;
+}
+
+.links {
+    margin-right: 7rem;
+}
+
+.services {
+    margin-right: 7rem;
+}
+
+
+.contactus h2,
+.links h2,
+.services h2 {
+    margin-bottom: 1rem;
+    color: white;
+}
+
+.socialicons {
+    display: flex;
+    gap: 2.3rem;
+    color: #025318;
+    margin-top: 1.3rem;
+}
+
+.socialicons p {
+    margin: 0;
+}
+
+.socialicons a {
+    text-decoration: none;
+    color: #025318;
+}
+
+.copyrightsection {
+    border-top: 1px solid white;
+    background-color: #001904;
+    padding-bottom: 2rem;
+    padding-top: 1rem;
+    color: rgb(216, 215, 215);
+    text-align: center;
+
+}
+
+.copyrightsection a {
+    text-decoration: underline;
+    color: blue;
+}
+
+
+.form {
+    padding-bottom: 20px;
+}
+
+.form label {
+    color: white;
+    font-size: 1rem;
+    display: block;
+    margin-bottom: 0.3rem;
+}
+
+.form textarea {
+    width: 30rem;
+    padding: 0.5rem 0.6rem;
+    background-color: #001904;
+    color: white;
+    border: 1px solid white;
+    border-radius: 0.3rem;
+    margin-bottom: 1rem;
+    font-size: 1rem;
+    height: 15rem;
+}
+
+.submit-button button {
+    background-color: white;
+    border: none;
+    width: 100%;
+    color: black;
+    padding: 0.5rem;
+    border-radius: 0.3rem;
+    cursor: pointer;
+    font-size: 1.1rem;
+    transition: background-color 0.3s ease;
+}
+
+.submit-button button:hover {
+    background-color: #ddd;
+}
+
+#whatsapp,
+#phone {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 1rem;
+    color: white;
+}
+
+#agricredsemail {
+    align-items: center;
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1rem;
+    color: white;
+}
+
+.fa-whatsapp,
+.fa-phone {
+    color: #fdfffe;
+    min-width: 24px;
+}
+
+
+@media (max-width: 450px) {
+
+    .contactsection {
+        display: flex;
+        margin-left: 1rem;
+        flex-wrap: wrap;
+        justify-content: space-between;
+
+    }
+
+    .form textarea {
+        width: 100%;
+        padding: 0.5rem 0.6rem;
+        background-color: #001904;
+        color: white;
+        border: 1px solid white;
+        border-radius: 0.3rem;
+        margin-bottom: 1rem;
+        font-size: 1rem;
+        height: 15rem;
+    }
+
+}
+
+@media (min-width: 451px) and (max-width: 767px) {
+
+
+    .contactsection {
+        display: flex;
+        margin-left: 2rem;
+        flex-wrap: wrap;
+        justify-content: space-between;
+
+    }
+
+
+
+}
+
+
+@media (min-width: 768px) and (max-width:912px) {
+
+
+    .footercontainer {
+        background-color: #001904;
+        color: rgb(216, 215, 215);
+        padding-top: 2rem;
+        min-height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        overflow-x: hidden;
+
+    }
+
+    .contactsection {
+        display: flex;
+        margin-left: 2rem;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+
+    }
+
+    .contactus,
+    .links,
+    .services {
+        margin-bottom: 2rem;
+        font-size: 1rem;
+        color: white;
+        width: 30%;
+    }
+
+    .links {
+        margin-right: 0rem;
+        margin-left: 7rem;
+    }
+
+    .services {
+        margin-right: 2rem;
+    }
+
+
+    .contactus h2,
+    .links h2,
+    .services h2 {
+        margin-bottom: 1rem;
+        color: white;
+    }
+
+    .socialicons {
+        display: flex;
+        gap: 1.3rem;
+        color: #025318;
+        margin-top: 1.3rem;
+    }
+
+    .socialicons p {
+        margin: 0;
+    }
+
+    .socialicons a {
+        text-decoration: none;
+        color: #025318;
+    }
+
+    .copyrightsection {
+        border-top: 1px solid white;
+        background-color: #001904;
+        padding-bottom: 2rem;
+        padding-top: 1rem;
+        color: rgb(216, 215, 215);
+        text-align: center;
+
+    }
+
+    .copyrightsection a {
+        text-decoration: underline;
+        color: blue;
+    }
+
+
+    .form {
+        padding-bottom: 20px;
+    }
+
+    .form label {
+        color: white;
+        font-size: 1rem;
+        display: block;
+        margin-bottom: 0.3rem;
+    }
+
+    .form textarea {
+        width: 18rem;
+        padding: 0.5rem 0.6rem;
+        background-color: #001904;
+        color: white;
+        border: 1px solid white;
+        border-radius: 0.3rem;
+        margin-bottom: 1rem;
+        font-size: 1rem;
+        height: 13rem;
+    }
+
+    .submit-button button {
+        background-color: white;
+        border: none;
+        width: 18rem;
+        color: black;
+        padding: 0.5rem;
+        border-radius: 0.3rem;
+        cursor: pointer;
+        font-size: 1.1rem;
+        transition: background-color 0.3s ease;
+    }
+
+    .submit-button button:hover {
+        background-color: #ddd;
+    }
+
+    #whatsapp,
+    #phone {
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+        margin-bottom: 1rem;
+        color: white;
+    }
+
+    #agricredsemail {
+        align-items: center;
+        display: flex;
+        gap: 1rem;
+        margin-bottom: 1rem;
+        color: white;
+    }
+
+    .fa-whatsapp,
+    .fa-phone {
+        color: #fdfffe;
+        min-width: 24px;
+    }
+}
+
+@media (min-width:913px) and (max-width:1024px) {
+
+    .footercontainer {
+        background-color: #001904;
+        color: rgb(216, 215, 215);
+        padding-top: 1rem;
+        min-height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        overflow-y: hidden;
+
+    }
+
+    .contactsection {
+        display: flex;
+        margin-left: 2rem;
+        margin-right: 0rem;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        gap: 2rem;
+
+    }
+
+    .contactus,
+    .links,
+    .services {
+        margin-bottom: 0rem;
+        font-size: 1rem;
+        color: white;
+        padding-top: 0rem;
+    }
+
+    .links {
+        margin-left: 2rem;
+    }
+
+    .services {
+        margin-right: 1rem;
+    }
+
+
+    .contactus h2,
+    .links h2,
+    .services h2 {
+        margin-bottom: 1rem;
+        color: white;
+    }
+
+    .socialicons {
+        display: flex;
+        gap: 1.5rem;
+        color: #025318;
+        margin-top: 1.3rem;
+    }
+
+    .socialicons p {
+        margin: 0;
+    }
+
+    .socialicons a {
+        text-decoration: none;
+        color: #025318;
+    }
+
+    .copyrightsection {
+        border-top: 1px solid white;
+        background-color: #001904;
+        padding-bottom: 1rem;
+        padding-top: 1rem;
+        color: rgb(216, 215, 215);
+        text-align: center;
+
+    }
+
+    .copyrightsection a {
+        text-decoration: underline;
+        color: blue;
+    }
+
+
+    .form {
+        padding-bottom: 20px;
+    }
+
+    .form label {
+        color: white;
+        font-size: 1rem;
+        display: block;
+        margin-bottom: 0.3rem;
+    }
+
+    .form textarea {
+        width: 21rem;
+        padding: 0.5rem 0.6rem;
+        background-color: #001904;
+        color: white;
+        border: 1px solid white;
+        border-radius: 0.3rem;
+        margin-bottom: 1rem;
+        font-size: 1rem;
+        height: 12.5rem;
+    }
+
+    .submit-button button {
+        background-color: white;
+        border: none;
+        width: 100%;
+        color: black;
+        padding: 0.5rem;
+        border-radius: 0.3rem;
+        cursor: pointer;
+        font-size: 1.1rem;
+        transition: background-color 0.3s ease;
+    }
+
+    .submit-button button:hover {
+        background-color: #ddd;
+    }
+
+    #whatsapp,
+    #phone {
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+        margin-bottom: 1rem;
+        color: white;
+    }
+
+    #agricredsemail {
+        align-items: center;
+        display: flex;
+        gap: 1rem;
+        margin-bottom: 1rem;
+        color: white;
+    }
+
+    .fa-whatsapp,
+    .fa-phone {
+        color: #fdfffe;
+        min-width: 24px;
+    }
+}
+
+
+@media (min-width:1025px) and (max-width:1280px) {
+    .footercontainer {
+        background-color: #001904;
+        color: rgb(216, 215, 215);
+        padding-top: 2rem;
+        min-height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        overflow-x: hidden;
+
+    }
+
+    .contactsection {
+        display: flex;
+        margin-left: 3rem;
+        flex-wrap: wrap;
+        justify-content: space-between;
+
+    }
+
+    .contactus,
+    .links,
+    .services {
+        margin-bottom: 2rem;
+        font-size: 1rem;
+        color: white;
+    }
+
+    .links {
+        margin-right: 7rem;
+    }
+
+    .services {
+        margin-right: 3rem;
+    }
+
+
+    .contactus h2,
+    .links h2,
+    .services h2 {
+        margin-bottom: 1rem;
+        color: white;
+    }
+
+    .socialicons {
+        display: flex;
+        gap: 2.3rem;
+        color: #025318;
+        margin-top: 1.3rem;
+    }
+
+    .socialicons p {
+        margin: 0;
+    }
+
+    .socialicons a {
+        text-decoration: none;
+        color: #025318;
+    }
+
+    .copyrightsection {
+        border-top: 1px solid white;
+        background-color: #001904;
+        padding-bottom: 2rem;
+        padding-top: 1rem;
+        color: rgb(216, 215, 215);
+        text-align: center;
+
+    }
+
+    .copyrightsection a {
+        text-decoration: underline;
+        color: blue;
+    }
+
+
+    .form {
+        padding-bottom: 20px;
+    }
+
+    .form label {
+        color: white;
+        font-size: 1rem;
+        display: block;
+        margin-bottom: 0.3rem;
+    }
+
+    .form textarea {
+        width: 25rem;
+        padding: 0.5rem 0.6rem;
+        background-color: #001904;
+        color: white;
+        border: 1px solid white;
+        border-radius: 0.3rem;
+        margin-bottom: 1rem;
+        font-size: 1rem;
+        height: 15rem;
+    }
+
+    .submit-button button {
+        background-color: white;
+        border: none;
+        width: 100%;
+        color: black;
+        padding: 0.5rem;
+        border-radius: 0.3rem;
+        cursor: pointer;
+        font-size: 1.1rem;
+        transition: background-color 0.3s ease;
+    }
+
+    .submit-button button:hover {
+        background-color: #ddd;
+    }
+
+    #whatsapp,
+    #phone {
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+        margin-bottom: 1rem;
+        color: white;
+    }
+
+    #agricredsemail {
+        align-items: center;
+        display: flex;
+        gap: 1rem;
+        margin-bottom: 1rem;
+        color: white;
+    }
+
+    .fa-whatsapp,
+    .fa-phone {
+        color: #fdfffe;
+        min-width: 24px;
+    }
+}
